@@ -1,15 +1,7 @@
-# IMPORTANT: Ce repo ne contient PAS le code source
-# Seuls les fichiers .exe sont publiés dans les Releases
-# Le code source reste privé
-
-# Tout ignorer par défaut
+# Code source privé - Seuls les .exe sont publiés
 *
 
-# Sauf les fichiers nécessaires pour GitHub Actions
-!.github/
-!.github/workflows/
-!.github/workflows/release.yml
-
-# Et le README
+# Autoriser seulement README et gitignore
 !README.md
 !.gitignore
+!RELEASE.md
