@@ -1,45 +1,36 @@
 # Nexus Launcher
 
-Launcher Electron pour GTA V avec système d'authentification KeyAuth et mise à jour automatique via GitHub Releases.
+Launcher pour GTA V avec système d'authentification KeyAuth.
 
-## 🔑 Configuration KeyAuth
+## 📥 Téléchargement
 
-1. Créez une application sur [KeyAuth Dashboard](https://keyauth.cc/)
-2. Modifiez `electron/keyauth.ts` avec vos identifiants :
+Téléchargez la dernière version depuis [Releases](https://github.com/natouxav1/nexus-launcherc/releases)
 
-```typescript
-export const keyAuthConfig: KeyAuthConfig = {
-    name: 'YourAppName',        // Nom de votre application
-    ownerid: 'YourOwnerID',     // Votre Owner ID
-    secret: 'YourAppSecret',    // Secret de votre application
-    version: '1.0'              // Version
-};
-```
+## 🔑 Obtenir une licence
 
-## 🚀 Installation
+Contactez-nous pour obtenir une clé de licence.
 
-```bash
-npm install
-cd installer-ui && npm install && cd ..
-npm run dev
-```
+## 📝 Installation
 
-## 📦 Build
+1. Téléchargez le fichier `.exe` depuis les Releases
+2. Exécutez l'installateur
+3. Lancez l'application
+4. Connectez-vous avec votre licence
 
-```bash
-npm run build
-```
+## ✨ Fonctionnalités
 
-## 🔄 Créer une release
-
-```powershell
-.\scripts\create-release.ps1 -Version "1.0.0"
-```
-
-## 📝 Fonctionnalités
-
-- ✅ Authentification KeyAuth (Login, Register, License)
-- ✅ Mise à jour automatique via GitHub Releases
+- ✅ Authentification sécurisée KeyAuth
+- ✅ Mise à jour automatique
 - ✅ Lancement GTA V (Steam, Epic, Rockstar)
 - ✅ Injection de menu mod
-- ✅ Gestion FSL
+- ✅ Interface moderne
+
+## 🔒 Sécurité
+
+- Authentification par licence unique
+- Protection HWID (une licence = une machine)
+- Mises à jour automatiques sécurisées
+
+## 📞 Support
+
+Pour toute question ou problème, ouvrez une [issue](https://github.com/natouxav1/nexus-launcherc/issues).
