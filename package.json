@@ -1,7 +1,7 @@
 {
   "name": "nexus-launcher",
   "private": true,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Nexus Launcher - GTA V Mod Menu",
   "author": "Nexus Mod Team",
   "main": "dist-electron/main.js",
