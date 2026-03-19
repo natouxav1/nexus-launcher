@@ -1,0 +1,64 @@
+{
+  "name": "nexus-installer-ui",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build && electron-builder"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-electron": "^0.28.7",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "build": {
+    "appId": "com.nexus.installer",
+    "productName": "Nexus Launcher Setup",
+    "directories": {
+      "output": "dist-installer"
+    },
+    "extraResources": [
+      {
+        "from": "../public/logo.png",
+        "to": "logo.png"
+      },
+      {
+        "from": "resources/nsis-installer.exe",
+        "to": "nsis-installer.exe"
+      }
+    ],
+    "win": {
+      "icon": "../icon.ico",
+      "requestedExecutionLevel": "requireAdministrator",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Nexus Launcher Setup.exe"
+    },
+    "portable": {
+      "artifactName": "Nexus Launcher Setup.exe"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "asar": true
+  }
+}

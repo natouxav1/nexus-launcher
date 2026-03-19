@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs (ne pas commit les builds, seulement les releases)
+dist/
+dist-electron/
+release/
+
+# Electron builder
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Base folder (assets locaux)
+base/
+
+# User data
+*.user
+
+# IMPORTANT: Ne garder que les .exe dans les releases
+# Les fichiers sources ne doivent pas être dans les releases publiques
