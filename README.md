@@ -4,7 +4,7 @@ Launcher pour GTA V avec système d'authentification KeyAuth.
 
 ## 📥 Téléchargement
 
-Téléchargez la dernière version depuis [Releases](https://github.com/natouxav1/nexus-launcherc/releases)
+Téléchargez la dernière version depuis [Releases](https://github.com/natouxav1/nexus-launcher/releases)
 
 ## 🔑 Obtenir une licence
 
@@ -33,4 +33,4 @@ Contactez-nous pour obtenir une clé de licence.
 
 ## 📞 Support
 
-Pour toute question ou problème, ouvrez une [issue](https://github.com/natouxav1/nexus-launcherc/issues).
+Pour toute question ou problème, ouvrez une [issue](https://github.com/natouxav1/nexus-launcher/issues).
