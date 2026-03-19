@@ -1,7 +1,7 @@
 {
   "name": "nexus-launcher",
   "private": true,
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Nexus Launcher - GTA V Mod Menu",
   "author": "Nexus Mod Team",
   "main": "dist-electron/main.js",
@@ -50,7 +50,14 @@
     "nsis": {
       "oneClick": false,
       "perMachine": true,
-      "allowToChangeInstallationDirectory": false
+      "allowToChangeInstallationDirectory": true,
+      "allowElevation": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "createDesktopShortcut": "always",
+      "menuCategory": "Nexus Mod Team",
+      "shortcutName": "Nexus Launcher"
     },
     "files": [
       "dist/**/*",
