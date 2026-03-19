@@ -1,7 +1,0 @@
-# Code source privé - Seuls les .exe sont publiés
-*
-
-# Autoriser seulement README et gitignore
-!README.md
-!.gitignore
-!RELEASE.md
